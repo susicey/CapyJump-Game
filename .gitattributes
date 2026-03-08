@@ -1,2 +1,10 @@
+# Tüm C# dosyalarını C# olarak tanımla
 *.cs linguist-language=C#
+
+# Tüm diğer dosyalar otomatik satır sonu kullanır
 * text=auto
+
+# Unity sahne ve prefab dosyaları için
+*.unity linguist-language=YAML
+*.prefab linguist-language=YAML
+*.asset linguist-language=YAML
